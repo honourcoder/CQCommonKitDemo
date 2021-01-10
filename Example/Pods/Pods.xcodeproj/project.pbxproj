@@ -21,6 +21,22 @@
 		716C1C24A6F1E2CED053ABF0C2A3B455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		8E06B43325AB1A1C002FC4D5 /* CQUUIDTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B41F25AB1A1B002FC4D5 /* CQUUIDTool.h */; };
+		8E06B43425AB1A1C002FC4D5 /* CQUUIDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B42025AB1A1B002FC4D5 /* CQUUIDTool.m */; };
+		8E06B43525AB1A1C002FC4D5 /* CQCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B42225AB1A1C002FC4D5 /* CQCustomView.m */; };
+		8E06B43625AB1A1C002FC4D5 /* CQCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42325AB1A1C002FC4D5 /* CQCustomView.h */; };
+		8E06B43725AB1A1C002FC4D5 /* CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42525AB1A1C002FC4D5 /* CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E06B43825AB1A1C002FC4D5 /* CQToolDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42625AB1A1C002FC4D5 /* CQToolDefine.h */; };
+		8E06B43925AB1A1C002FC4D5 /* CQBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42825AB1A1C002FC4D5 /* CQBaseTableViewCell.h */; };
+		8E06B43A25AB1A1C002FC4D5 /* CQBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42925AB1A1C002FC4D5 /* CQBaseViewController.h */; };
+		8E06B43B25AB1A1C002FC4D5 /* CQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B42A25AB1A1C002FC4D5 /* CQBaseModel.m */; };
+		8E06B43C25AB1A1C002FC4D5 /* CQBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B42B25AB1A1C002FC4D5 /* CQBaseTableViewCell.m */; };
+		8E06B43D25AB1A1C002FC4D5 /* CQBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42C25AB1A1C002FC4D5 /* CQBaseModel.h */; };
+		8E06B43E25AB1A1C002FC4D5 /* CQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B42D25AB1A1C002FC4D5 /* CQBaseViewController.m */; };
+		8E06B43F25AB1A1C002FC4D5 /* NSString+ColorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42F25AB1A1C002FC4D5 /* NSString+ColorUtil.h */; };
+		8E06B44025AB1A1C002FC4D5 /* NSString+Regular.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B43025AB1A1C002FC4D5 /* NSString+Regular.h */; };
+		8E06B44125AB1A1C002FC4D5 /* NSString+ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B43125AB1A1C002FC4D5 /* NSString+ColorUtil.m */; };
+		8E06B44225AB1A1C002FC4D5 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B43225AB1A1C002FC4D5 /* NSString+Regular.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
@@ -78,32 +94,48 @@
 		446697B662D6451955C2900D5595D002 /* CQCommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CQCommonKit-prefix.pch"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		4CA6A9B9E688E46E3DF3BF37E8A602C5 /* CQCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CQCommonKit.framework; path = CQCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA6A9B9E688E46E3DF3BF37E8A602C5 /* CQCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CQCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		538107B23A9E9F70FBC876D3BB909490 /* Pods-CQCommonKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CQCommonKit_Example-dummy.m"; sourceTree = "<group>"; };
 		56D6848A45AC9F0D007AF4E92DD45E7D /* CQCommonKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CQCommonKit.release.xcconfig; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5F5FFB413A31B8273D1D473C5DB8E958 /* Pods-CQCommonKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQCommonKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		65BF266E51AADDC50E00F59F387AE044 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CQCommonKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6B083EC07B58455FD7EDC974D5EDD633 /* Pods-CQCommonKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CQCommonKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6C252C6B2C2BE2CE61C98A5A53A63232 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C252C6B2C2BE2CE61C98A5A53A63232 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		7EE014FF5A12C87AA91BE4534A6103CA /* Pods_CQCommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CQCommonKit_Example.framework; path = "Pods-CQCommonKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE014FF5A12C87AA91BE4534A6103CA /* Pods_CQCommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQCommonKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		808BF68B12588DEDE6A852B790ACFBA4 /* Pods-CQCommonKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CQCommonKit_Example-Info.plist"; sourceTree = "<group>"; };
 		8128DAB4BD4BC567130CE9FC7CFA0847 /* Pods-CQCommonKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CQCommonKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8259E07947FF74ADAB4F435FD1342758 /* CQCommonKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CQCommonKit-Info.plist"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E06B41F25AB1A1B002FC4D5 /* CQUUIDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQUUIDTool.h; sourceTree = "<group>"; };
+		8E06B42025AB1A1B002FC4D5 /* CQUUIDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQUUIDTool.m; sourceTree = "<group>"; };
+		8E06B42225AB1A1C002FC4D5 /* CQCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQCustomView.m; sourceTree = "<group>"; };
+		8E06B42325AB1A1C002FC4D5 /* CQCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQCustomView.h; sourceTree = "<group>"; };
+		8E06B42525AB1A1C002FC4D5 /* CommonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonKit.h; sourceTree = "<group>"; };
+		8E06B42625AB1A1C002FC4D5 /* CQToolDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQToolDefine.h; sourceTree = "<group>"; };
+		8E06B42825AB1A1C002FC4D5 /* CQBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQBaseTableViewCell.h; sourceTree = "<group>"; };
+		8E06B42925AB1A1C002FC4D5 /* CQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQBaseViewController.h; sourceTree = "<group>"; };
+		8E06B42A25AB1A1C002FC4D5 /* CQBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQBaseModel.m; sourceTree = "<group>"; };
+		8E06B42B25AB1A1C002FC4D5 /* CQBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQBaseTableViewCell.m; sourceTree = "<group>"; };
+		8E06B42C25AB1A1C002FC4D5 /* CQBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQBaseModel.h; sourceTree = "<group>"; };
+		8E06B42D25AB1A1C002FC4D5 /* CQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQBaseViewController.m; sourceTree = "<group>"; };
+		8E06B42F25AB1A1C002FC4D5 /* NSString+ColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ColorUtil.h"; sourceTree = "<group>"; };
+		8E06B43025AB1A1C002FC4D5 /* NSString+Regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regular.h"; sourceTree = "<group>"; };
+		8E06B43125AB1A1C002FC4D5 /* NSString+ColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ColorUtil.m"; sourceTree = "<group>"; };
+		8E06B43225AB1A1C002FC4D5 /* NSString+Regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regular.m"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		9266C0DA7124A4C25230FD4EFB2CE549 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9266C0DA7124A4C25230FD4EFB2CE549 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A06B488B7A246DB13627CD0ADF26B91F /* Pods-CQCommonKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CQCommonKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AA32BC215805C033E1F664ACDF61BA06 /* Pods-CQCommonKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CQCommonKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AB32509A7597D3E0E0DAC36564740EEB /* Pods-CQCommonKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CQCommonKit_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -112,7 +144,7 @@
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		B81243E2DA2D1A5EFF4E0FF0AC784F39 /* Pods-CQCommonKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQCommonKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C0904C49854F775385C1BAB7685400A1 /* Pods-CQCommonKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CQCommonKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C208401C624E586B98802F2057158347 /* Pods_CQCommonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CQCommonKit_Tests.framework; path = "Pods-CQCommonKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C208401C624E586B98802F2057158347 /* Pods_CQCommonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQCommonKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49B34E39A58FA2338189BAA39DF69AB /* CQCommonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CQCommonKit.modulemap; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
@@ -122,7 +154,7 @@
 		DECDF73C89F7A1DBC8E23633F02514C8 /* Pods-CQCommonKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CQCommonKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E28FD6CC737ED6F42730DE34305633B8 /* Pods-CQCommonKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CQCommonKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		E710B18676FD2053C266438F0C87AE25 /* Pods-CQCommonKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQCommonKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E9486F1521E31446545D7DB02737D939 /* CQCommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CQCommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E9486F1521E31446545D7DB02737D939 /* CQCommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CQCommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FEC263A5078C9B5D4B8B63E168BB1FE2 /* CQCommonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CQCommonKit-dummy.m"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -235,6 +267,11 @@
 		61C89EB9FEDA76B6DD48F8EEE83C6C0B /* CQCommonKit */ = {
 			isa = PBXGroup;
 			children = (
+				8E06B42725AB1A1C002FC4D5 /* Base */,
+				8E06B42E25AB1A1C002FC4D5 /* Category */,
+				8E06B42425AB1A1C002FC4D5 /* Public */,
+				8E06B41E25AB1A1B002FC4D5 /* Utils */,
+				8E06B42125AB1A1B002FC4D5 /* View */,
 				65BF266E51AADDC50E00F59F387AE044 /* ReplaceMe.m */,
 				EB0DBFFF15BABA4BB8286FEABFF63426 /* Pod */,
 				6C78A048E5A048EAEEC76DA54E53CBBD /* Support Files */,
@@ -267,6 +304,57 @@
 				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		8E06B41E25AB1A1B002FC4D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E06B41F25AB1A1B002FC4D5 /* CQUUIDTool.h */,
+				8E06B42025AB1A1B002FC4D5 /* CQUUIDTool.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8E06B42125AB1A1B002FC4D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E06B42225AB1A1C002FC4D5 /* CQCustomView.m */,
+				8E06B42325AB1A1C002FC4D5 /* CQCustomView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E06B42425AB1A1C002FC4D5 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				8E06B42525AB1A1C002FC4D5 /* CommonKit.h */,
+				8E06B42625AB1A1C002FC4D5 /* CQToolDefine.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		8E06B42725AB1A1C002FC4D5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8E06B42825AB1A1C002FC4D5 /* CQBaseTableViewCell.h */,
+				8E06B42925AB1A1C002FC4D5 /* CQBaseViewController.h */,
+				8E06B42A25AB1A1C002FC4D5 /* CQBaseModel.m */,
+				8E06B42B25AB1A1C002FC4D5 /* CQBaseTableViewCell.m */,
+				8E06B42C25AB1A1C002FC4D5 /* CQBaseModel.h */,
+				8E06B42D25AB1A1C002FC4D5 /* CQBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8E06B42E25AB1A1C002FC4D5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8E06B42F25AB1A1C002FC4D5 /* NSString+ColorUtil.h */,
+				8E06B43025AB1A1C002FC4D5 /* NSString+Regular.h */,
+				8E06B43125AB1A1C002FC4D5 /* NSString+ColorUtil.m */,
+				8E06B43225AB1A1C002FC4D5 /* NSString+Regular.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
@@ -307,7 +395,6 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -389,6 +476,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				060FA7AFC0153653578AAB0CA21D4393 /* CQCommonKit-umbrella.h in Headers */,
+				8E06B44025AB1A1C002FC4D5 /* NSString+Regular.h in Headers */,
+				8E06B43925AB1A1C002FC4D5 /* CQBaseTableViewCell.h in Headers */,
+				8E06B43625AB1A1C002FC4D5 /* CQCustomView.h in Headers */,
+				8E06B43F25AB1A1C002FC4D5 /* NSString+ColorUtil.h in Headers */,
+				8E06B43D25AB1A1C002FC4D5 /* CQBaseModel.h in Headers */,
+				8E06B43725AB1A1C002FC4D5 /* CommonKit.h in Headers */,
+				8E06B43325AB1A1C002FC4D5 /* CQUUIDTool.h in Headers */,
+				8E06B43A25AB1A1C002FC4D5 /* CQBaseViewController.h in Headers */,
+				8E06B43825AB1A1C002FC4D5 /* CQToolDefine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,7 +665,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFBC5915835CE53A6BF296D01370D12E /* CQCommonKit-dummy.m in Sources */,
+				8E06B44225AB1A1C002FC4D5 /* NSString+Regular.m in Sources */,
 				CE877352417B053CCFA22037DA75BEF8 /* ReplaceMe.m in Sources */,
+				8E06B43425AB1A1C002FC4D5 /* CQUUIDTool.m in Sources */,
+				8E06B43525AB1A1C002FC4D5 /* CQCustomView.m in Sources */,
+				8E06B43C25AB1A1C002FC4D5 /* CQBaseTableViewCell.m in Sources */,
+				8E06B43B25AB1A1C002FC4D5 /* CQBaseModel.m in Sources */,
+				8E06B43E25AB1A1C002FC4D5 /* CQBaseViewController.m in Sources */,
+				8E06B44125AB1A1C002FC4D5 /* NSString+ColorUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,8 +921,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

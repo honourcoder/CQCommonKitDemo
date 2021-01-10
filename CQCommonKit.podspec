@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CQCommonKit'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '一个常用的类库，包含一些简单的工具类和一些便利的类扩展'
 
 # This description is used to generate tags and improve search results.
