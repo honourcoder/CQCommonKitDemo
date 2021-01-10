@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CQCommonKit_Example' do
+  pod 'CQCommonKit', :path => '../'
+
+  target 'CQCommonKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
