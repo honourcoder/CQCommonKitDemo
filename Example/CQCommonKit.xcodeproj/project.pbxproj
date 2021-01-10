@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022513F61ACF32D0A1BD32F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		022513F61ACF32D0A1BD32F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		12726EF69E789008EB72F5BE /* Pods-CQCommonKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQCommonKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CQCommonKit_Tests/Pods-CQCommonKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5DFC05CEA52032FFF00E8AF2 /* Pods-CQCommonKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQCommonKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CQCommonKit_Tests/Pods-CQCommonKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CQCommonKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CQCommonKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,9 +62,9 @@
 		6B1F11BF279694526A53F855 /* Pods_CQCommonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQCommonKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC43B028E6464B5DEEE8EF3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BC43B028E6464B5DEEE8EF3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C236057B3DDE182B79ED26F8 /* Pods_CQCommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQCommonKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5696533C46254A2DCC94DE4 /* CQCommonKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CQCommonKit.podspec; path = ../CQCommonKit.podspec; sourceTree = "<group>"; };
+		C5696533C46254A2DCC94DE4 /* CQCommonKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CQCommonKit.podspec; path = ../CQCommonKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CFE879A17C6FDE1EA6FA4E5C /* Pods-CQCommonKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQCommonKit_Example.release.xcconfig"; path = "Target Support Files/Pods-CQCommonKit_Example/Pods-CQCommonKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DD96C56B82B95D909090F326 /* Pods-CQCommonKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQCommonKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CQCommonKit_Example/Pods-CQCommonKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				5DFC05CEA52032FFF00E8AF2 /* Pods-CQCommonKit_Tests.debug.xcconfig */,
 				12726EF69E789008EB72F5BE /* Pods-CQCommonKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -516,6 +516,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CQCommonKit/CQCommonKit-Prefix.pch";
 				INFOPLIST_FILE = "CQCommonKit/CQCommonKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CQCommonKit/CQCommonKit-Prefix.pch";
 				INFOPLIST_FILE = "CQCommonKit/CQCommonKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
