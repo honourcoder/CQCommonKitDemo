@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    常用的类库都在这里，如果有需要的功能，可以在评论回复，我来添加,欢迎评论
                        DESC
 
   s.homepage         = 'https://github.com/honourcoder/CQCommonKitDemo'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'CQCommonKit' => ['CQCommonKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

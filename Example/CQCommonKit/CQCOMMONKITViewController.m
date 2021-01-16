@@ -7,6 +7,7 @@
 //
 
 #import "CQCOMMONKITViewController.h"
+#import <CQCommonKit.h>
 
 @interface CQCOMMONKITViewController ()
 

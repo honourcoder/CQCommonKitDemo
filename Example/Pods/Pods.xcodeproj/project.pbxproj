@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		060FA7AFC0153653578AAB0CA21D4393 /* CQCommonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 362D577BA3AE85EB9502CD8B847ACD43 /* CQCommonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		060FA7AFC0153653578AAB0CA21D4393 /* CQCommonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 362D577BA3AE85EB9502CD8B847ACD43 /* CQCommonKit-umbrella.h */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
@@ -21,22 +21,22 @@
 		716C1C24A6F1E2CED053ABF0C2A3B455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		8E06B43325AB1A1C002FC4D5 /* CQUUIDTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B41F25AB1A1B002FC4D5 /* CQUUIDTool.h */; };
+		8E06B43325AB1A1C002FC4D5 /* CQUUIDTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B41F25AB1A1B002FC4D5 /* CQUUIDTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E06B43425AB1A1C002FC4D5 /* CQUUIDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B42025AB1A1B002FC4D5 /* CQUUIDTool.m */; };
 		8E06B43525AB1A1C002FC4D5 /* CQCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B42225AB1A1C002FC4D5 /* CQCustomView.m */; };
-		8E06B43625AB1A1C002FC4D5 /* CQCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42325AB1A1C002FC4D5 /* CQCustomView.h */; };
-		8E06B43725AB1A1C002FC4D5 /* CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42525AB1A1C002FC4D5 /* CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E06B43825AB1A1C002FC4D5 /* CQToolDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42625AB1A1C002FC4D5 /* CQToolDefine.h */; };
+		8E06B43625AB1A1C002FC4D5 /* CQCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42325AB1A1C002FC4D5 /* CQCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E06B43825AB1A1C002FC4D5 /* CQToolDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42625AB1A1C002FC4D5 /* CQToolDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E06B43925AB1A1C002FC4D5 /* CQBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42825AB1A1C002FC4D5 /* CQBaseTableViewCell.h */; };
-		8E06B43A25AB1A1C002FC4D5 /* CQBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42925AB1A1C002FC4D5 /* CQBaseViewController.h */; };
+		8E06B43A25AB1A1C002FC4D5 /* CQBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42925AB1A1C002FC4D5 /* CQBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E06B43B25AB1A1C002FC4D5 /* CQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B42A25AB1A1C002FC4D5 /* CQBaseModel.m */; };
 		8E06B43C25AB1A1C002FC4D5 /* CQBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B42B25AB1A1C002FC4D5 /* CQBaseTableViewCell.m */; };
-		8E06B43D25AB1A1C002FC4D5 /* CQBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42C25AB1A1C002FC4D5 /* CQBaseModel.h */; };
+		8E06B43D25AB1A1C002FC4D5 /* CQBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42C25AB1A1C002FC4D5 /* CQBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E06B43E25AB1A1C002FC4D5 /* CQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B42D25AB1A1C002FC4D5 /* CQBaseViewController.m */; };
-		8E06B43F25AB1A1C002FC4D5 /* NSString+ColorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42F25AB1A1C002FC4D5 /* NSString+ColorUtil.h */; };
-		8E06B44025AB1A1C002FC4D5 /* NSString+Regular.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B43025AB1A1C002FC4D5 /* NSString+Regular.h */; };
+		8E06B43F25AB1A1C002FC4D5 /* NSString+ColorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B42F25AB1A1C002FC4D5 /* NSString+ColorUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E06B44025AB1A1C002FC4D5 /* NSString+Regular.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E06B43025AB1A1C002FC4D5 /* NSString+Regular.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E06B44125AB1A1C002FC4D5 /* NSString+ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B43125AB1A1C002FC4D5 /* NSString+ColorUtil.m */; };
 		8E06B44225AB1A1C002FC4D5 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E06B43225AB1A1C002FC4D5 /* NSString+Regular.m */; };
+		8ED9C91B25B3279400A94D86 /* CQCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED9C91A25B3279400A94D86 /* CQCommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
@@ -118,7 +118,6 @@
 		8E06B42025AB1A1B002FC4D5 /* CQUUIDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQUUIDTool.m; sourceTree = "<group>"; };
 		8E06B42225AB1A1C002FC4D5 /* CQCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQCustomView.m; sourceTree = "<group>"; };
 		8E06B42325AB1A1C002FC4D5 /* CQCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQCustomView.h; sourceTree = "<group>"; };
-		8E06B42525AB1A1C002FC4D5 /* CommonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonKit.h; sourceTree = "<group>"; };
 		8E06B42625AB1A1C002FC4D5 /* CQToolDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQToolDefine.h; sourceTree = "<group>"; };
 		8E06B42825AB1A1C002FC4D5 /* CQBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQBaseTableViewCell.h; sourceTree = "<group>"; };
 		8E06B42925AB1A1C002FC4D5 /* CQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQBaseViewController.h; sourceTree = "<group>"; };
@@ -131,6 +130,7 @@
 		8E06B43125AB1A1C002FC4D5 /* NSString+ColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ColorUtil.m"; sourceTree = "<group>"; };
 		8E06B43225AB1A1C002FC4D5 /* NSString+Regular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regular.m"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		8ED9C91A25B3279400A94D86 /* CQCommonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQCommonKit.h; sourceTree = "<group>"; };
 		9266C0DA7124A4C25230FD4EFB2CE549 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
@@ -327,7 +327,7 @@
 		8E06B42425AB1A1C002FC4D5 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				8E06B42525AB1A1C002FC4D5 /* CommonKit.h */,
+				8ED9C91A25B3279400A94D86 /* CQCommonKit.h */,
 				8E06B42625AB1A1C002FC4D5 /* CQToolDefine.h */,
 			);
 			path = Public;
@@ -475,16 +475,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				060FA7AFC0153653578AAB0CA21D4393 /* CQCommonKit-umbrella.h in Headers */,
-				8E06B44025AB1A1C002FC4D5 /* NSString+Regular.h in Headers */,
-				8E06B43925AB1A1C002FC4D5 /* CQBaseTableViewCell.h in Headers */,
 				8E06B43625AB1A1C002FC4D5 /* CQCustomView.h in Headers */,
-				8E06B43F25AB1A1C002FC4D5 /* NSString+ColorUtil.h in Headers */,
-				8E06B43D25AB1A1C002FC4D5 /* CQBaseModel.h in Headers */,
-				8E06B43725AB1A1C002FC4D5 /* CommonKit.h in Headers */,
-				8E06B43325AB1A1C002FC4D5 /* CQUUIDTool.h in Headers */,
 				8E06B43A25AB1A1C002FC4D5 /* CQBaseViewController.h in Headers */,
+				8E06B43325AB1A1C002FC4D5 /* CQUUIDTool.h in Headers */,
 				8E06B43825AB1A1C002FC4D5 /* CQToolDefine.h in Headers */,
+				8E06B43D25AB1A1C002FC4D5 /* CQBaseModel.h in Headers */,
+				8E06B44025AB1A1C002FC4D5 /* NSString+Regular.h in Headers */,
+				8E06B43F25AB1A1C002FC4D5 /* NSString+ColorUtil.h in Headers */,
+				8ED9C91B25B3279400A94D86 /* CQCommonKit.h in Headers */,
+				8E06B43925AB1A1C002FC4D5 /* CQBaseTableViewCell.h in Headers */,
+				060FA7AFC0153653578AAB0CA21D4393 /* CQCommonKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
